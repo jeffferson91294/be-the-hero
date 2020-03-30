@@ -1,6 +1,6 @@
 const express = require('express')//importa as funcionalidades do pacote express instalado anteriormente
 const routes = require('./routes') //importando o routes.js
-
+const cors = require('cors')
 //variavel app armazena a aplicacao
 const app = express()
 
